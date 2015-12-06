@@ -2,7 +2,7 @@
 
 ### Index
 [Getting Started](#getting-started)
-Endpoints
+[Endpoints](#endpoints)
 
 ### Getting Started
 First, import the EaseApp Library.
