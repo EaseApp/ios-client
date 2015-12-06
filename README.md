@@ -37,7 +37,7 @@ Endpoints.CreateApplication(settings:Settings, applicationName:String, callback:
 ```
 Where `settings` is a settings object that contains a user's information for authorization and `applicationName` is the desired applicationName.
 
-##### List Applications lists an user's applications. Example:
+##### List Applications lists a user's applications. Example:
 ---
 ```
 Endpoints.ListApplications(settings:Settings, callback: {
