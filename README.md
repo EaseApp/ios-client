@@ -32,7 +32,7 @@ The Swift adapter for EaseApp supports 6 endpoints. Adapter does not support Syn
 ```
 Endpoints.CreateApplication(settings:Settings, applicationName:String, callback: {
   response in
-  println(response)
+  print(response)
 })
 ```
 Where `settings` is a settings object that contains a user's information for authorization and `applicationName` is the desired applicationName.
@@ -42,7 +42,7 @@ Where `settings` is a settings object that contains a user's information for aut
 ```
 Endpoints.ListApplications(settings:Settings, callback: {
   response in
-  println(response)
+  print(response)
 })
 ```
 Where `settings` is a settings object.
@@ -52,7 +52,7 @@ Where `settings` is a settings object.
 ```
 Endpoints.DeleteApplication(settings:Settings, applicationName:String, callback: {
   response in
-  println(response)
+  print(response)
 })
 ```
 Where `settings` is a settings object, and `applicationName` is a user's application name.
@@ -63,7 +63,7 @@ Where `settings` is a settings object, and `applicationName` is a user's applica
 ```
 Endpoints.ReadApplicationData(settings:Settings, applicationName:String, path:String, callback:{
   response in 
-  println(response)
+  print(response)
 })
 ```
 Where `applicationName` is a user's application and `path` is the desired path to read from. If you want the whole document, specify the path as "/". 
@@ -73,7 +73,7 @@ Where `applicationName` is a user's application and `path` is the desired path t
 ```
 Endpoints.SaveApplicationData(settings:Settings, applicationName:String, path:String, data:String, callback:{
   response in
-  println(response)
+  print(response)
 })
 ```
 Where `path` is the desired path to save to. If you want the whole document, specify the path as "/". 
@@ -83,7 +83,7 @@ Where `path` is the desired path to save to. If you want the whole document, spe
 ```
 DeleteApplicationData(settings:Settings, applicationName:String, path:String, callback: {
   response in
-  println(response)
+  print(response)
 })
 ```
 Where `path` is the desired path to delet from. If you want the whole document, specify the path as "/". 
