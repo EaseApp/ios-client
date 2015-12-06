@@ -2,6 +2,7 @@
 
 ### Index
 [Getting Started](#getting-started)
+
 [Endpoints](#endpoints)
 
 ### Getting Started
