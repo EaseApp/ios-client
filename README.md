@@ -1,7 +1,7 @@
 ## iOS Adapter for EaseApp
 
 ### Index
-Getting Started
+[Getting Started](#getting-started)
 Endpoints
 
 ### Getting Started
@@ -13,6 +13,7 @@ var easeAppSettings:Settings = new Settings(appToken: "JzlaHSLCZdFDqKjYLonmyjFkh
 
 After you've created a settings object, you can call static endpoints!
 
+### Endpoints
 The Swift adapter for EaseApp supports 6 endpoints. Adapter does not support Sync, but can be connected to manually as specified here.
 
 | Endpoint | Description |
